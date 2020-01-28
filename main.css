@@ -1,0 +1,45 @@
+body{ 
+background: url("suzy4.jpg");
+	font-family: monospace;
+	font-size: 15px;
+}
+img{
+	height: 150px;
+}
+.win{
+	color: green;
+}
+.loo{
+	color: red;
+}
+.tie{
+	color: lightblue;
+}
+.over{
+	position: absolute;
+	z-index: 99;
+}
+.ino{
+	text-align:center; 
+}
+#over1{
+	text-align:center; 
+}
+input{
+	height: 50px;
+	width: 100px;
+}
+.who{
+	text-align: center;
+}
+.sa{
+	font-family: monospace;
+	text-align: center; 
+	font-size: 40px;
+	right: 25px;	
+}
+.sp{
+	font-family: monospace;
+	font-size: 40px;
+	text-align: center; 
+}

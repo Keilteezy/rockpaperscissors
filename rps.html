@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="main.css">
+<body>
+	
+	<center><h1>Rock Paper Scissors</h1></center>
+		<center>
+			<button onclick="rps('1')"><img src="rock.png"></button>	
+			<button onclick="rps('2')"><img src="paper.png"></button>
+			<button onclick="rps('3')"><img src="scissors.png"></button>
+		</center>
+		<div id="over1">
+			<div class="row">
+				<div id="res"></div>
+			</div>
+		<div>
+			<div class="col-md-12">	
+			</div>
+		</div>
+		</div>
+	
+		<div>
+			<div class="sa" id="sa"><center>0</center></div>
+			<div >
+				<center>
+				<h3>AI</h3>
+				<div class="ai" id="ai"></div>
+				</center>
+				</div>
+		<div>
+			<center>
+			<h3>Player</h3>
+			<div class="player" id="player"></div>
+			</center>
+		</div>
+		<div class="sp" id="sp"><center>0</center></div>
+	</div>
+	<div id="over"></div>
+	
+	
+	
+</body>
+<script src = "ai.js"></script>
+</html>
